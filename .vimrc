@@ -29,6 +29,7 @@ Bundle 'FuzzyFinder'
 Bundle 'git://git.wincent.com/command-t.git'
 " Git repos on your local machine (i.e. when working on your own plugin)
 Bundle 'file:///Users/gmarik/path/to/plugin'
+Bundle 'derekprior/vim-trimmer'
 " ...
 
 filetype plugin indent on " required!
