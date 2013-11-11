@@ -52,8 +52,8 @@ set number
 set cursorline
 set cursorcolumn
 highlight LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=DarkGrey guibg=NONE
-hi CursorLine   cterm=NONE ctermbg=16 ctermfg=white guibg=#ccffff guifg=white
-hi CursorColumn cterm=NONE ctermbg=16 ctermfg=white guibg=darkred guifg=white
+hi CursorLine guibg=#404040 
+hi CursorColumn guibg=#404040
 nnoremap <Leader>c :set cursorline! cursorcolumn!<CR>
 
 " enabled backspace
