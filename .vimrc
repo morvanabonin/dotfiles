@@ -30,6 +30,7 @@ Bundle 'git://git.wincent.com/command-t.git'
 " Git repos on your local machine (i.e. when working on your own plugin)
 Bundle 'file:///Users/gmarik/path/to/plugin'
 Bundle 'derekprior/vim-trimmer'
+Bundle 'mattn/emmet-vim'
 " ...
 
 filetype plugin indent on " required!
@@ -53,7 +54,7 @@ set number
 set cursorline
 set cursorcolumn
 highlight LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=DarkGrey guibg=NONE
-hi CursorLine guibg=#404040 
+hi CursorLine guibg=#404040
 hi CursorColumn guibg=#404040
 nnoremap <Leader>c :set cursorline! cursorcolumn!<CR>
 
@@ -92,3 +93,11 @@ au BufNewFile,BufRead *.ctp setfiletype php
 " set autocomplete for PHP
 autocmd FileType php set omnifunc=phpcomplete#CompletePHP
 :imap <s-tab> <c-x><c-o>
+
+cab W w
+cab Q q
+cab wQ wq
+cab Wq wq
+cab WQ wq
+cab tb tabnew
+cab nt NERDTreeToggle
