@@ -17,6 +17,8 @@ Bundle 'gmarik/vundle'
 "
 " original repos on github
 Bundle 'scrooloose/nerdtree'
+Bundle 'jistr/vim-nerdtree-tabs'
+Bundle 'scrooloose/nerdcommenter'
 Bundle 'tpope/vim-fugitive'
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
@@ -31,6 +33,11 @@ Bundle 'git://git.wincent.com/command-t.git'
 Bundle 'file:///Users/gmarik/path/to/plugin'
 Bundle 'derekprior/vim-trimmer'
 Bundle 'mattn/emmet-vim'
+Bundle 'davidhalter/jedi-vim'
+Bundle 'Yggdroot/indentLine'
+Bundle 'mattn/webapi-vim'Bundle 'Lokaltog/vim-easymotion'
+Bundle 'bkad/CamelCaseMotion'
+Bundle 'scrooloose/syntastic'
 " ...
 
 filetype plugin indent on " required!
