@@ -1,0 +1,26 @@
+{
+    "always_show_minimap_viewport": true,
+    "bold_folder_labels": true,
+    "color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
+    "font_size": 9,
+    "ignored_packages":
+    [
+        "PHP",
+        "phpfmt",
+        "PHPTools",
+        "Vintage"
+    ],
+    "indent_guide_options":
+    [
+        "draw_normal",
+        "draw_active"
+    ],
+    "line_padding_bottom": 1,
+    "line_padding_top": 1,
+    "material_theme_disable_fileicons": false,
+    "material_theme_disable_folder_animation": false,
+    "material_theme_small_tab": true,
+    "overlay_scroll_bars": "enabled",
+    "theme": "Material-Theme-Darker.sublime-theme",
+    "translate_tabs_to_spaces": true
+}
