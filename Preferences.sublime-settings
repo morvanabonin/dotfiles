@@ -5,8 +5,6 @@
 	"font_size": 9,
 	"ignored_packages":
 	[
-		"PHP",
-		"phpfmt",
 		"PHPTools",
 		"Vintage"
 	],
