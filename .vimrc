@@ -1,3 +1,11 @@
+"Configuração e instalação do Vundle no vim
+"Link: https://github.com/VundleVim/Vundle.vim
+"1. Set up Vundle $ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+"2. Configure Plugins
+"3. Install plugins with this command:
+"vim +PluginInstall +qall
+"or launch vim an d run :PluginInstall
+
 "vimrc
 "vimrc by @morvanabonin
 "
